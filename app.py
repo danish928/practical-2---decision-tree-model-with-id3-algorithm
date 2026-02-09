@@ -27,7 +27,7 @@ def id3(df, target, attrs):
         sub_df = df[df[best] == val]
         tree[best][val] = id3(sub_df, target, [a for a in attrs if a != best])
     return tree
-  def predict(tree, input_data):
+def predict(tree, input_data):
     if not isinstance(tree, dict):
         return tree
 
