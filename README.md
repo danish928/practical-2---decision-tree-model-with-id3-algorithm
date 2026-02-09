@@ -1,0 +1,1 @@
+# practical-2---decision-tree-model-with-id3-algorithm
